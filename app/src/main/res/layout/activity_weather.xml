@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_module"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/weatherbackground"
+    tools:context="com.conventry.university.activity.WeatherActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:weightSum="40">
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textSize="@dimen/large_font_size"
+            style="@style/default_label_style"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/currentTemp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textSize="@dimen/large_font_size"
+            style="@style/default_label_style"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/default_label_style"
+            android:padding="@dimen/wide_border_width"
+            android:gravity="center_horizontal|top"/>
+
+        <TextView
+            android:id="@+id/realFeelTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/default_label_style"
+            android:padding="@dimen/wide_border_width"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center_horizontal|top"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginTop="@dimen/edittext_left_padding"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/tempweather"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/minMaxTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    style="@style/default_label_style"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/wide_border_width"
+                android:layout_height="match_parent"
+                android:background="@color/default_label_color">
+            </View>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/airweather"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/windSpeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    style="@style/default_label_style"
+                  />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/wide_border_width"
+                android:layout_height="match_parent"
+                android:background="@color/default_label_color">
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@android:color/transparent">
+    </View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/temp_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

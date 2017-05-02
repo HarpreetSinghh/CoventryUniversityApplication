@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/outer_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cat_botttom_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/cat_grid_backround">
+
+            <ImageView
+                android:id="@+id/cat_img"
+                android:layout_width="@dimen/home_cat_imgsize"
+                android:layout_height="@dimen/home_cat_imgsize"
+                android:layout_gravity="center"
+                android:padding="@dimen/textview_default_left_padding"
+                android:src="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_catName"
+            style="@style/default_label_style"
+            android:layout_width="@dimen/home_cat_txtwidth"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/small_font_size"
+            android:paddingTop="@dimen/editext_defualt_padding"
+            android:paddingBottom="@dimen/editext_defualt_padding"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

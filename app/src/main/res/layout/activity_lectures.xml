@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_module"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.conventry.university.activity.ModuleActivity">
+
+    <TextView
+        android:id="@+id/lectures_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/progress_bar_runing"
+        android:textSize="@dimen/normal_font_size"
+        android:padding="@dimen/edittext_left_padding"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/darker_grey_color"
+        android:layout_height="@dimen/thin_border_width">
+    </View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lectures_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+</LinearLayout>

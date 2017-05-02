@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="university_name">Coventry University</string>
+    <string name="app_name">Coventry University</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_timetable">Timetable</string>
+    <string name="title_activity_modules">Modules</string>
+    <string name="title_activity_lectures">Lecture Slide</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_search">Search</string>
+
+    <string name="txt_login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="search_hint">Search</string>
+    <string name="computer_science">COMPUTER SCIENCE</string>
+    <string name="computer_science_announcements">Please remember Turnitin originality reports can take 24 hours to process.</string>
+    <string name="reg_symbol">&#174;</string>
+    <string name="get_notifications">GET NOTIFICATIONS</string>
+</resources>

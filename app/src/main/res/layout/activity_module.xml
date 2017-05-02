@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_module"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.conventry.university.activity.ModuleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="30"
+        android:layout_weight="30">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/progress_bar_runing"
+        android:textSize="@dimen/large_font_size"
+        android:padding="@dimen/edittext_left_padding"
+        android:text="@string/computer_science"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/darker_grey_color"
+        android:layout_height="@dimen/thin_border_width">
+    </View>
+
+    <TextView
+        android:id="@+id/announcementTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="17"
+        android:gravity="center"
+        style="@style/default_label_style"
+        android:padding="@dimen/edittext_left_padding"
+        android:text="@string/computer_science_announcements"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/darker_grey_color"
+        android:layout_height="@dimen/thin_border_width">
+    </View>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+        </View>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/modules_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        android:scrollbars="vertical" />
+</LinearLayout>

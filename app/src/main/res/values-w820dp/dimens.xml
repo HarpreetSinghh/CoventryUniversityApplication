@@ -1,0 +1,56 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <bool name="isTablet">true</bool>
+
+    <dimen name="header_element_padding">10dp</dimen>
+    <dimen name="tab_bar_width">6dp</dimen>
+
+    <!-- Logo Image Dimensons -->
+    <!-- <dimen name="log_image_width">200dp</dimen> -->
+    <dimen name="logo_image_height">200dp</dimen>
+    <dimen name="thin_border_width">1dp</dimen>
+    <dimen name="divider_height">2dp</dimen>
+    <dimen name="wide_border_width">4dp</dimen>
+
+    <!-- font size -->
+    <dimen name="tiny_font_size">18sp</dimen>
+    <dimen name="very_small_font_size">20sp</dimen>
+    <dimen name="small_font_size">22sp</dimen>
+    <dimen name="normal_font_size">24sp</dimen>
+    <dimen name="header_font_size">26sp</dimen>
+
+    <!-- Default Configuration -->
+    <dimen name="textview_default_left_padding">10dp</dimen>
+
+    <!-- Button Properties -->
+    <dimen name="buttton_text_size">24sp</dimen>
+    <dimen name="button_border_width">2dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+
+    <!-- Editext Properties -->
+    <dimen name="editext_radius">12dp</dimen>
+    <dimen name="edittext_left_padding">20dp</dimen>
+    <dimen name="editext_defualt_padding">10dp</dimen>
+
+    <!-- Custom Dialog Properties -->
+    <dimen name="dialog_layout_radius">20dp</dimen>
+    <dimen name="dialog_top_margin">20dp</dimen>
+    <dimen name="dialog_border_width">4dp</dimen>
+    <dimen name="dialog_button_height">70dp</dimen>
+    <dimen name="dialog_button_radius">15dp</dimen>
+
+
+    <dimen name="list_left_image_size">150dp</dimen>
+    <dimen name="student_image_size">150dp</dimen>
+    <dimen name="list_view_bottom_margin">100dp</dimen>
+    <dimen name="cat_botttom_margin">30dp</dimen>
+
+    <!-- New Detail Screen -->
+    <dimen name="image_view_size">300dp</dimen>
+
+    <dimen name="popup_margin">32dp</dimen>
+</resources>

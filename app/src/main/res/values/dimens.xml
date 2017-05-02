@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <bool name="isTablet">false</bool>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="header_element_padding">5dp</dimen>
+    <dimen name="horizontal_margin">12dp</dimen>
+    <dimen name="thin_border_width">0.5dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="thin_divider_height">0.5px</dimen>
+    <dimen name="wide_border_width">2dp</dimen>
+    <dimen name="tab_bar_width">3dp</dimen>
+
+    <!-- Logo Image Dimensons -->
+    <!-- <dimen name="log_image_width">200dp</dimen> -->
+    <dimen name="logo_image_height">120dp</dimen>
+
+    <!-- Theme Properties -->
+    <dimen name="min_width">1dp</dimen>
+    <dimen name="min_height">1dp</dimen>
+    <!-- font size -->
+    <dimen name="tiny_font_size">10sp</dimen>
+    <dimen name="very_small_font_size">12sp</dimen>
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="normal_font_size">16sp</dimen>
+    <dimen name="header_font_size">18sp</dimen>
+    <dimen name="large_font_size">20sp</dimen>
+
+    <!-- Default Configuration -->
+    <dimen name="textview_default_left_padding">5dp</dimen>
+
+    <!-- Button Properties -->
+    <dimen name="buttton_text_size">16sp</dimen>
+    <dimen name="button_border_width">1dp</dimen>
+    <dimen name="button_radius">4dp</dimen>
+
+    <!-- Editext Properties -->
+    <dimen name="editext_radius">6dp</dimen>
+    <dimen name="edittext_left_padding">10dp</dimen>
+    <dimen name="editext_defualt_padding">5dp</dimen>
+
+    <!-- Custom Dialog Properties -->
+    <dimen name="dialog_layout_radius">10dp</dimen>
+    <dimen name="dialog_top_margin">10dp</dimen>
+    <dimen name="dialog_border_width">2dp</dimen>
+    <dimen name="dialog_button_height">40dp</dimen>
+    <dimen name="dialog_button_radius">7dp</dimen>
+
+
+    <!--  Side Menu  -->
+    <dimen name="side_menu_list_view_width">240dp</dimen>
+
+    <!--  List Properties -->
+    <dimen name="list_left_image_size">75dp</dimen>
+    <dimen name="student_image_size">75dp</dimen>
+    <dimen name="list_view_bottom_margin">50dp</dimen>
+    <dimen name="home_cat_txtwidth">90dp</dimen>
+    <dimen name="home_cat_imgsize">60dp</dimen>
+    <dimen name="cat_botttom_margin">20dp</dimen>
+    <dimen name="home_cat_cirlce">90dp</dimen>
+
+    <!-- New Detail Screen -->
+    <dimen name="image_view_size">180dp</dimen>
+
+    <dimen name="popup_margin">16dp</dimen>
+</resources>

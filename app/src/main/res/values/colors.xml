@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d9df6</color>
+    <color name="colorPrimaryDark">#0d9df6</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="progress_bar_second">#ff0d36</color>
+    <color name="progress_bar_runing">#e75f5a</color>
+
+    <!-- Default Proprties -->
+    <color name="background_color">#fafafa</color>
+    <color name="blue_theme_color">#294d95</color>
+    <color name="orange_theme_color">#f98320</color>
+    <color name="theme_grey_text_color">#333333</color>
+    <color name="yellow_theme_color">#f69322</color>
+    <color name="grey_text_color">#333333</color>
+
+
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="onload_listview_progressabr_bg_color">#FFFFFF</color>
+
+    <!--  List View -->
+    <color name="list_divider_color">#436bba</color>
+    <color name="list_overlay_background">#99000000</color>
+    <color name="list_item_primary_color">#000000</color>
+    <color name="list_item_secondary_color">#000000</color>
+    <color name="list_background_color">#FFFFFF</color>
+    <color name="list_footer_background_color">#F3F3F3</color>
+    <color name="date_text_color">#c2c2c2</color>
+    <color name="like_count_text_color">#c2c2c2</color>
+
+    <color name="header_background_color">#0d9df6</color>
+    <color name="app_theme_color">#5399EE</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="header_text_color">#FFFFFF</color>
+    <color name="default_label_color">#545454</color>
+    <color name="darker_grey_color">#333333</color>
+
+    <!-- Editext Properties -->
+    <color name="edittext_background_color">#FFFFFF</color>
+    <color name="editext_hint_color">#697280</color>
+    <color name="editext_text_color">#000000</color>
+
+    <!-- Button Properties -->
+    <color name="button_background_color">#0d9df6</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_selected_text_color">#333333</color>
+    <color name="button_border_color">#81b2e4</color>
+    <color name="link_text_color">#336BFF</color>
+
+    <!-- Custom Dialog Properties -->
+    <color name="dialog_layout_up_color">#386DA3</color>
+    <color name="dialog_layout_down_color">#FFFFFF</color>
+    <color name="dialog_text_color">#393939</color>
+    <color name="dialog_button_text_color">#FFFFFF</color>
+
+    <!-- Supplier List Screen -->
+    <color name="list_item_bg_color">#F8F8F8</color>
+
+</resources>

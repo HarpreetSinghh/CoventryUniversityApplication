@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.conventry.university.activity.CampusMapActivity">
+
+
+    <EditText
+
+        android:background="@drawable/edittext_background"
+        android:id="@+id/sourceLocation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_margin="7dp"
+        android:padding="5dp"
+        android:hint="Enter source"
+        android:inputType="textPersonName" />
+    <Button
+        android:padding="3dp"
+        android:visibility="gone"
+        android:elevation="8dp"
+        android:background="@drawable/edittext_background"
+        android:onClick="hideShow"
+        android:layout_gravity="center"
+        android:id="@+id/hideShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Source and Destination" />
+
+    <EditText
+
+        android:background="@drawable/edittext_background"
+        android:id="@+id/destLocation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_margin="7dp"
+        android:padding="5dp"
+        android:hint="Enter destination"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:padding="3dp"
+        android:elevation="8dp"
+        android:background="@drawable/edittext_background"
+        android:onClick="goToLocation"
+        android:layout_gravity="center"
+        android:id="@+id/findPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find path" />
+    <fragment
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+</LinearLayout>
